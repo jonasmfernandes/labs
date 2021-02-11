@@ -5,11 +5,18 @@
     box-sizing: border-box;
 }
 
-a, p, li {
+a, li, h2 {
     color: white;
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 header {
@@ -19,12 +26,19 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 400px;
+    position: fixed;
+    width: 100%;
 }
 
 h1 {
     cursor: pointer;
     font-size: 1.5em;
-    
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: bold;
 }
 
 nav li {
@@ -32,3 +46,137 @@ nav li {
     padding-right: 30px;
 }
 
+li a:hover {
+    color: #1abc9c;
+    transition: 0.2s;
+    font-size: 1.2em;
+}
+.containerinside img {
+    width: 230px;
+    padding-top: 80px;
+}
+
+hr {
+    width: 25%;
+    height: 4px;
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+.container1 {
+    background-color: #1abc9c;
+    height: 680px; 
+}
+
+.containerinside {
+    height: 680px;
+    margin: 0 400px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerinside img, h2, p {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio {
+    height: 830px;
+}
+
+.portfolio h3 {
+    padding-top: 90px;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #343a40;
+
+}
+
+.portfolioinside hr {
+    width: 15%;
+    height: 4px;
+    color: #343a40;
+    background-color: #343a40;
+    border-radius: 5px;
+    margin: 40px auto;
+} 
+
+.portfolioinside {
+    height: 830px;
+    margin: 0 200px;
+    text-align: center;
+}
+
+.portfolioinside img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img:hover {
+    filter: saturate(180%);
+    transition: 0.3s;
+}
+
+.about {
+    height: 600px;
+    background-color: #1abc9c;
+    text-align: center;
+}
+
+.about h3 {
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.about hr {
+    margin: 40px auto;
+    width: 15%;
+    height: 4px;
+    border-radius: 5px;
+
+}
+
+.aboutinside {
+    /* background-color: yellowgreen; */
+    height: 250px;
+    margin: 0 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutinside p {
+    font-size: 1.2em;
+    margin-right: 70px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.about button {
+    padding: 20px;
+    width: 230px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #1abc9c;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+    border-color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.1s;
+}
