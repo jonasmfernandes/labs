@@ -1,0 +1,323 @@
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  height: 10vh;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  padding-right: 10vh;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  margin-left: 10vh;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li:hover {
+  color: #9f6934;
+  transition: 0.2s;
+  font-size: 1.5rem;
+}
+
+.logo:hover {
+  color: #9f6934;
+  transition: 0.3s;
+}
+
+.hero {
+  background-image: url(img/img-hero-ofc.png);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 20vh 0;
+}
+
+.hero h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Prata", serif;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  width: 20%;
+  text-align: center;
+  color: white;
+}
+
+.hero button {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  outline: none;
+  border-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 25px;
+  color: white;
+}
+
+.hero button:hover {
+  color: #9f6934;
+  border-color: #9f6934;
+  transition: 0.3s;
+}
+span {
+  font-family: "Prata", serif;
+  transition: 0.3s;
+  color: #9f6934;
+}
+span:hover {
+  color: #c48546;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container {
+  /* height: 90vh; */
+  background-color: #202020;
+}
+
+.container h3 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 2%;
+  font-family: "Prata", serif;
+}
+
+.card-books {
+  /* background-color: lightcoral; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 30vh;
+}
+
+.card-one {
+  border-radius: 10px;
+  width: 32vh;
+  height: 55vh;
+  box-shadow: 10px 10px 15px #000;
+  background-color: white;
+}
+
+.cardImg {
+  background-image: url(img/quebra-nozes.jpg);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cardImg2 {
+  background-image: url(img/pé-de-feijão.jpeg);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cardImg3 {
+  background-image: url(img/Screenshot\ from\ 2021-03-24\ 16-18-24.png);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cardImg4 {
+  background-image: url(img/chapeuzinho-vermelho.jpg);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cardImg5 {
+  background-image: url(img/patinho-feio.jpg);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cardImg6 {
+  background-image: url(img/dumbo.jpg.crdownload);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.textCard {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.buttonCard {
+  text-align: center;
+  margin-top: 4vh;
+  
+}
+
+.actions {
+ padding: 10px 50px;
+ font-size: 1.2rem;
+ background-color: transparent;
+ color: black;
+ border-radius: 25px;
+  border-color: black;
+ transition: 0.3s;
+}
+
+.actions:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+hr {
+  background-color: rgb(255, 255, 255);
+  height: 1px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.artists {
+  background-color: #202020;
+}
+
+.artists-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh 30vh;
+}
+
+.artists h3 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 2%;
+  font-family: "Prata", serif;
+} 
+
+.artistImg {
+  background-image: url(img/carlosdrummonddeandrade.jpg);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.contact {
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40vh;
+}
+
+.contact p {
+  font-size: 2rem;
+  width: 50%;
+}
+
+img {
+  width: 40vh;
+}
+
+.social {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 85vh;
+}
+
+i {
+  font-size: 8vh;
+  margin-bottom: 40%;
+  transition: 0.3s;
+}
+
+i:hover {
+  color: #9f6934;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.title {
+  background-color: white;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.title h3 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: black;
+  text-transform: uppercase;
+  padding-top: 4%;
+  font-family: "Prata", serif;
+}
+footer {
+  height: 10vh;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer p {
+  color: white;
+}
+
